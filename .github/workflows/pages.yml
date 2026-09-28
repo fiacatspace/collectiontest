@@ -25,8 +25,13 @@ jobs:
       - name: Check static artifact
         run: |
           test -f index.html
-          test -f manifest.webmanifest
           test -f sw.js
+          test -f goods/index.html
+          test -f goods/manifest.webmanifest
+          test -f goods/sw.js
+          test -f wardrobe/index.html
+          test -f wardrobe/manifest.webmanifest
+          test -f wardrobe/sw.js
       - name: Stage site files
         run: |
           mkdir site

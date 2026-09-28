@@ -27,9 +27,13 @@ jobs:
           test -f index.html
           test -f manifest.webmanifest
           test -f sw.js
+      - name: Stage site files
+        run: |
+          mkdir site
+          rsync -a --exclude='.git/' --exclude='.github/' --exclude='site/' ./ site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: .
+          path: site
       - id: deployment
         uses: actions/deploy-pages@v4

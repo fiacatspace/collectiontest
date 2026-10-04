@@ -1,16 +1,17 @@
 {
-  "sourceBranch": "stationery",
-  "buildCommand": "npm run build:test",
   "sourceRepository": "fiacatspace/collection",
-  "sourceCommit": "19d9a96773a5bceaddf32bd8cb469c28133c69cd",
+  "buildCommand": "npm run build:test",
+  "sourceBranch": "stationery",
   "checks": [
     "typecheck",
     "build",
     "build:test",
+    "test",
     "test:stationery",
     "test:stationery:round2",
     "test:stationery:round3",
-    "test",
-    "v1/v2 to v3 migration, template privacy and photo deletion integration"
-  ]
+    "test:stationery:round4",
+    "v1/v2/v3 to v4 migration and archive/cover/photo integration"
+  ],
+  "sourceCommit": "e45f1c11e948b79e83277a08c1a83b966deb8cde"
 }

@@ -1,14 +1,15 @@
 {
-  "sourceRepository": "fiacatspace/collection",
-  "checks": [
-    "npm ci",
-    "npm run build",
-    "npm run build:test",
-    "test:stationery",
-    "test",
-    "data integration"
-  ],
-  "sourceCommit": "4078bc80d11d4db74e18163da6c1c9d39a55613c",
   "buildCommand": "npm run build:test",
-  "sourceBranch": "stationery"
+  "sourceCommit": "958b3e7706d8b3daea7b299eb7f0d59d97c2a86d",
+  "sourceBranch": "stationery",
+  "checks": [
+    "typecheck",
+    "build",
+    "build:test",
+    "test:stationery",
+    "test:stationery:round2",
+    "test",
+    "data migration and deletion integration"
+  ],
+  "sourceRepository": "fiacatspace/collection"
 }

@@ -1,15 +1,15 @@
 {
-  "sourceRepository": "fiacatspace/collection",
+  "sourceRepository": "https://github.com/fiacatspace/collection",
   "buildCommand": "npm run build:test",
   "sourceBranch": "stationery",
-  "sourceCommit": "9b08095a5cf2feab7307e7e37d82a72d42061cb0",
-  "implementationCommit": "260c1f8d4418d2f904be2a3b21ed30767afcccce",
+  "stationeryVersion": "0.2.1",
   "checks": [
-    "typecheck", "build", "build:test", "test",
-    "test:stationery", "test:stationery:round2", "test:stationery:round3", "test:stationery:round4",
-    "test:stationery:round5", "test:stationery:round5:data",
-    "old schema and legacy ZIP compatibility, assets and references",
-    "overwrite, stable-ID merge, durable pre-restore backup and failure rollback",
-    "published browser acceptance"
-  ]
+    "completion checkbox and optional date",
+    "Goals/Todo ranges and validation",
+    "320/375/390/430 Chromium/WebKit layout",
+    "ZIP preview/overwrite/merge/rollback",
+    "disabled development cards and simplified settings"
+  ],
+  "appVersion": "2.9.5",
+  "sourceCommit": "8dedaa89a78b975822ad43a79dc058b849d3c5b5"
 }

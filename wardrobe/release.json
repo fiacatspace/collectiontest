@@ -1,1 +1,1 @@
-{"version":"2.9.5","notes":["文创完成复选框、可选完成日期及分享","Goals / Todo 开始结束日期与范围校验","移动端日期和 ZIP 恢复布局修正","待开发首页卡片禁用、手帐设置精简"],"downloadBytes":1309766,"cacheBytes":1309198}
+{"version":"2.9.6","notes":["统一 Habit、Mood、Sleep 与自定义打卡和每日记录","今日快捷记录、打卡管理与 Stationery 首页聚合","兼容旧 Bullet 打卡、完整备份恢复及冲突引用","ZIP 合并冲突默认保留本地"],"downloadBytes":1325464,"cacheBytes":1324896}

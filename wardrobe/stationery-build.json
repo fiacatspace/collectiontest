@@ -1,18 +1,17 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "d96039adeb95d77b461b934c320f54c299f910d5",
-  "appVersion": "2.9.9",
-  "stationeryVersion": "0.5.0",
+  "sourceCommit": "010063cac8e7d2b0bcb8f9571d5fb2c7d6b8e1a6",
+  "appVersion": "2.9.10",
+  "stationeryVersion": "0.6.0",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-05T14:25:12.4084753Z",
+  "publishedAt": "2026-10-05T15:21:55.1149067Z",
   "checks": [
-    "TypeScript production/test builds",
-    "npm test Collection/PWA regression",
-    "Analytics Chromium/WebKit 320/375/390/430, shared dark theme and large fonts",
-    "Today Todo strike-through, stable grouping, reversal and original-row synchronization",
-    "Habit/Mood/Sleep/Journal/Todo/Bullet dynamic statistics, periods, empty states and reload",
-    "Raw-data ZIP overwrite/merge/migration regression",
-    "Offline derived statistics and close/reopen persistence"
+    "TypeScript production/test builds and npm test",
+    "Two-layer archive action geometry, ordering, confirmation and unchanged lifecycle behavior",
+    "Monthly Review month/snapshot/rich content/manual refresh/PNG share",
+    "Review ZIP overwrite and current/backup/both merge; v4-v8 ZIP compatibility",
+    "Chromium/WebKit 320/375/390/430, shared dark theme and large fonts",
+    "Analytics and Today/Placement regressions; Console/Network"
   ]
 }

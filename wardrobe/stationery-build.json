@@ -1,17 +1,17 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "a5270bbb06c86aee7f0841987feb8ee3b5e64b07",
-  "appVersion": "2.9.7",
-  "stationeryVersion": "0.3.1",
+  "sourceCommit": "9a1730216f3a8d85c0d33c075217b5b0b392196b",
+  "appVersion": "2.9.8",
+  "stationeryVersion": "0.4.0",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-05T12:47:13.1829335Z",
+  "publishedAt": "2026-10-05T13:41:56.1782886Z",
   "checks": [
     "TypeScript production/test builds",
-    "Unified Tracker Chromium/WebKit 320/375/390/430",
-    "Deleted defaults refresh/reopen/ZIP overwrite",
-    "v6 DB and old ZIP adapters, normal section merge",
-    "Collection/Wardrobe/Goods PWA regression",
-    "Stationery rounds 1/3/4/5/6 and Tracker suites"
+    "Today/Placement Chromium/WebKit 320/375/390/430",
+    "Quick Add, folded completion, Bullet Month/Day and Journal Day synchronization",
+    "Placement current/backup/both, target remap, deletion and ZIP overwrite",
+    "v4-v7 snapshot adapters and no default reseeding",
+    "Collection and Stationery regressions"
   ]
 }

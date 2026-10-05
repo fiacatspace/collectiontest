@@ -1,1 +1,1 @@
-{"version":"2.9.7","notes":["Bullet 添加模块统一 Tracker / 打卡入口","首页今日 Todo 与今日 Tracker 直接操作","打卡引用操作布局对齐","默认电子分区可删除，删除状态支持备份恢复"],"downloadBytes":1327608,"cacheBytes":1327040}
+{"version":"2.9.8","notes":["Stationery Today 快速新增 Todo / Tracker","已记录打卡默认折叠，展开可继续修改","Todo / Tracker 可关联 Bullet 月页、日页与 Journal 日页","Placement 支持备份恢复、正常合并与目标删除保留原数据"],"downloadBytes":1338466,"cacheBytes":1337898}

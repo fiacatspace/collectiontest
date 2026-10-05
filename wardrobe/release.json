@@ -1,1 +1,1 @@
-{"version":"2.9.6","notes":["统一 Habit、Mood、Sleep 与自定义打卡和每日记录","今日快捷记录、打卡管理与 Stationery 首页聚合","兼容旧 Bullet 打卡、完整备份恢复及冲突引用","ZIP 合并冲突默认保留本地"],"downloadBytes":1325464,"cacheBytes":1324896}
+{"version":"2.9.7","notes":["Bullet 添加模块统一 Tracker / 打卡入口","首页今日 Todo 与今日 Tracker 直接操作","打卡引用操作布局对齐","默认电子分区可删除，删除状态支持备份恢复"],"downloadBytes":1327608,"cacheBytes":1327040}

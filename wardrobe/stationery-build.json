@@ -1,18 +1,18 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "fd9ac63e11e7eae397e10c0042a6031239f79879",
-  "appVersion": "2.9.11",
-  "stationeryVersion": "0.6.1",
+  "sourceCommit": "f8d022e268784a4af404344cb7d4ac3ad18e6498",
+  "appVersion": "2.9.12",
+  "stationeryVersion": "0.7.0",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-06T02:16:31.2870689Z",
+  "publishedAt": "2026-10-06T02:47:48.8180215Z",
   "checks": [
     "TypeScript; build; build:test; npm test",
-    "Archive original entity cover grid 2/3 columns at 320/375/390/430/759/760/1024/1440",
-    "Detail original view/edit/share/restore/delete with confirmation",
-    "550ms hold; 10px scroll guard; native emulated touch scroll and reorder; animation-independent hit testing",
-    "archiveSortOrder transaction; refresh; filtered hidden-order preservation; Escape cancellation",
-    "Chromium/WebKit dark appearance, large fonts, Console/Network",
-    "Monthly Review and Backup/Restore regression"
+    "Shared BulletNotebookShell / right-side indexes for new and archived sections",
+    "Year-month / month-day and week navigation; same section; missing page confirmation",
+    "320ms forward/backward turns; CSS fallback; reduced motion; rapid navigation",
+    "Original Todo / Tracker / Placement / body / templates; long-page mobile scrolling",
+    "Chromium/WebKit 320/375/390/430/768/1024, dark / large font, Console/Network",
+    "Archive actions and reorder; Today and Placement; ZIP regressions"
   ]
 }

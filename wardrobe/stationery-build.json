@@ -1,18 +1,18 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "13e45ae88f75e63c6c05a45e34db16953cc691cf",
-  "appVersion": "2.9.19",
-  "stationeryVersion": "0.9.2",
+  "sourceCommit": "95128d13dac0a38d02b040a4b73165a592024f00",
+  "appVersion": "2.9.20",
+  "stationeryVersion": "0.10.0",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-06T10:55:53.684Z",
+  "publishedAt": "2026-10-06T11:19:51.476Z",
   "checks": [
     "tsc -b; npm test; build; build:test; lint not configured",
-    "Chromium/WebKit: five navigation-only indexes, independent directory, shared blank/template/manual/calendar/index creation and last reading page",
-    "Chromium/WebKit: single monthly review card/month filter, body/edit/snapshot refresh/share, old routes and navigation state",
-    "Chromium: real ZIP overwrite/default-local conflict; raw snapshot merge and v4-v8 compatibility; WebKit ZIP preview",
-    "320/375/390/430/768/820/1024: responsive layout and Console/Network checks",
-    "Removed unreferenced moveArchive only; retained Habit/Mood migrations, legacy readers, normalizeTrackerBlocks, migrateBulletTrackers and old URLs",
-    "Goods/Wardrobe business and Todo/Tracker/Bullet schemas unchanged; no dependency upgrades"
+    "Chromium/WebKit: all five type directories, top calendar and section-scoped real-content/Todo/Tracker dots/current-day styling",
+    "Existing and missing positions; no implicit pages; manual, calendar, Year/Month/Week, blank/system/user template creation; refresh and last reading",
+    "Page-only turn direction/reduced motion, archived shared Shell, dirty guard/legacy URLs/navigation context",
+    "Current/backup/both/v7 ZIP compatibility; original Todo/Tracker/Placement and reading/share data regressions",
+    "320/375/430/768/1024 no overflow; Console/Network checks",
+    "Goods/Wardrobe business, database schemas, migration and Backup compatibility unchanged; no dependencies added"
   ]
 }

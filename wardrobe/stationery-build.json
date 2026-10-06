@@ -1,17 +1,18 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "0889f1c1a07fbf0fd6bf2618b983ba09f03c3373",
-  "appVersion": "2.9.18",
-  "stationeryVersion": "0.9.1",
+  "sourceCommit": "13e45ae88f75e63c6c05a45e34db16953cc691cf",
+  "appVersion": "2.9.19",
+  "stationeryVersion": "0.9.2",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-06T10:43:08.752Z",
+  "publishedAt": "2026-10-06T10:55:53.684Z",
   "checks": [
     "tsc -b; npm test; build; build:test; lint not configured",
-    "Chromium/WebKit: independent Todo, hidden legacy bookshelf/type, old URLs and metadata, Journal/Placement/Bullet, completion, statistics and share",
-    "Chromium: ZIP overwrite restore/default-local merge; data regression current/backup/both and v7 ZIP",
-    "Windows WebKit ZIP restore not run: IndexedDB Blob storage unsupported in runner",
-    "320/375/390/430/768/820/1024: no overflow; existing entry/navigation regression",
-    "Goods/Wardrobe business and database schemas unchanged; no dependency upgrades"
+    "Chromium/WebKit: five navigation-only indexes, independent directory, shared blank/template/manual/calendar/index creation and last reading page",
+    "Chromium/WebKit: single monthly review card/month filter, body/edit/snapshot refresh/share, old routes and navigation state",
+    "Chromium: real ZIP overwrite/default-local conflict; raw snapshot merge and v4-v8 compatibility; WebKit ZIP preview",
+    "320/375/390/430/768/820/1024: responsive layout and Console/Network checks",
+    "Removed unreferenced moveArchive only; retained Habit/Mood migrations, legacy readers, normalizeTrackerBlocks, migrateBulletTrackers and old URLs",
+    "Goods/Wardrobe business and Todo/Tracker/Bullet schemas unchanged; no dependency upgrades"
   ]
 }

@@ -1,1 +1,1 @@
-{"version":"2.9.18","notes":["移除电子记录重复的 Todo & Done 入口与新建类型","Todo 独立使用，保留首页、工作台、Placement、日记来源与 Bullet 引用","兼容旧 Todo 分组与旧 URL，完整保留备份恢复、统计和分享"],"downloadBytes":1403617,"cacheBytes":1403049}
+{"version":"2.9.19","notes":["Bullet 索引导航、独立目录与共用模板创建流程","月度回顾按月份筛选，卡片统一进入详情，移除重复操作","统一 Tracker 和电子笔记本文案，清理未调用归档移动函数，保留兼容代码"],"downloadBytes":1403756,"cacheBytes":1403188}

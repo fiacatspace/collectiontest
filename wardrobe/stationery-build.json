@@ -1,17 +1,18 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "27bd490cae610dcb23d55f822e2ec4ecda5c79b3",
-  "appVersion": "2.9.14",
-  "stationeryVersion": "0.8.0",
+  "sourceCommit": "eb94bc770b1def07faa4ae95e27ea47ec873f43b",
+  "appVersion": "2.9.15",
+  "stationeryVersion": "0.8.1",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-06T04:56:39.0418226Z",
+  "publishedAt": "2026-10-06T07:04:20.169Z",
   "checks": [
     "TypeScript; npm test; build; build:test; no configured lint script",
-    "Quick records in ordered rich body; legacy log compatibility; five status menus",
-    "Bullet/Journal/Monthly Review local drafts and default reading modes; save/cancel/reload",
-    "PNG sharing; ZIP restore/merge; rich marks/statuses/order; image draft cleanup",
-    "Chromium/WebKit 320/375/390/430; Console/Network; Windows WebKit Blob limitation: images and full restore checked in Chromium",
-    "Bullet navigation and Archive regressions; Goods/Wardrobe source unchanged; no dependency upgrades"
+    "Three dirty choices, native history, failed-save draft retention on Journal/Bullet/Monthly Review",
+    "One-shot new content edit; save/reload view; Month Tracker section/page/tracker/date dedupe",
+    "Archive original details/tab/scroll; Journal date; Statistics range; session-only navigation state",
+    "Reading/share/ZIP restore and legacy fields/migrations; autoSave UI removed with compatibility retained",
+    "Chromium/WebKit 320/375/390/430; Console/Network; actual installed iOS PWA unavailable",
+    "Goods/Wardrobe business source unchanged; dependency graph unchanged"
   ]
 }

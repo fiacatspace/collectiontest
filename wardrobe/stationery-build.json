@@ -1,20 +1,17 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "73d0c2a5840fe0ec33f60f309fb967678447c3a1",
-  "appVersion": "2.9.17",
-  "stationeryVersion": "0.9.0",
+  "sourceCommit": "0889f1c1a07fbf0fd6bf2618b983ba09f03c3373",
+  "appVersion": "2.9.18",
+  "stationeryVersion": "0.9.1",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-06T08:11:36.631Z",
+  "publishedAt": "2026-10-06T10:43:08.752Z",
   "checks": [
-    "TypeScript build; npm test; build; build:test; lint not configured",
-    "Chromium/WebKit: Todo workbench entry defaults and date/status/section filters, original row edit and CRUD",
-    "Home direct Habit/Mood/Sleep/Custom; Tracker management and historical records; inline Placement Todo/Tracker",
-    "Bullet navigation-only indexes, independent directory, blank/template/calendar/manual creation, last/current page and reload",
-    "320/375/390/430/768/820/1024: no overflow and Today title actions align to section edge",
-    "Draft/save/view, Archive source/tab/scroll, Journal date, Statistics range regressions",
-    "Legacy migration, ZIP restore/merge, raw original data, reading/share regressions",
-    "Local 2D turn/compositing cleanup; Chromium/WebKit light/dark/reduced motion/archived Shell",
-    "Goods/Wardrobe business and all database schemas unchanged; no dependency upgrades"
+    "tsc -b; npm test; build; build:test; lint not configured",
+    "Chromium/WebKit: independent Todo, hidden legacy bookshelf/type, old URLs and metadata, Journal/Placement/Bullet, completion, statistics and share",
+    "Chromium: ZIP overwrite restore/default-local merge; data regression current/backup/both and v7 ZIP",
+    "Windows WebKit ZIP restore not run: IndexedDB Blob storage unsupported in runner",
+    "320/375/390/430/768/820/1024: no overflow; existing entry/navigation regression",
+    "Goods/Wardrobe business and database schemas unchanged; no dependency upgrades"
   ]
 }

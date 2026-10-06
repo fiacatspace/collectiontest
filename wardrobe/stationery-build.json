@@ -1,18 +1,17 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "51652fc39a5506f0ae204d2cff6449540fab8e1e",
-  "appVersion": "2.9.13",
-  "stationeryVersion": "0.7.1",
+  "sourceCommit": "27bd490cae610dcb23d55f822e2ec4ecda5c79b3",
+  "appVersion": "2.9.14",
+  "stationeryVersion": "0.8.0",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-06T04:26:27.4110623Z",
+  "publishedAt": "2026-10-06T04:56:39.0418226Z",
   "checks": [
-    "TypeScript; build; build:test; npm test; no configured lint script",
-    "Stationery spacing; fixed two-column home; inline Today quick-add and management icons",
-    "Todo strike-through/stable grouping/refresh/original data synchronization",
-    "Monthly Review aligned Edit/Share/Refresh; compact summary; body preservation; ZIP backup/restore",
-    "Shared Journal/Bullet/Review TextFormattingToolbar; collapsed help; active bold/underline/strike/subtitle",
-    "Chromium/WebKit 320/375/390/430 and large fonts; Console/Network",
-    "Bullet navigation/Archive actions and drag ordering regressions; Goods/Wardrobe source unchanged"
+    "TypeScript; npm test; build; build:test; no configured lint script",
+    "Quick records in ordered rich body; legacy log compatibility; five status menus",
+    "Bullet/Journal/Monthly Review local drafts and default reading modes; save/cancel/reload",
+    "PNG sharing; ZIP restore/merge; rich marks/statuses/order; image draft cleanup",
+    "Chromium/WebKit 320/375/390/430; Console/Network; Windows WebKit Blob limitation: images and full restore checked in Chromium",
+    "Bullet navigation and Archive regressions; Goods/Wardrobe source unchanged; no dependency upgrades"
   ]
 }

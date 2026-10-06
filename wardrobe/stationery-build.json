@@ -1,18 +1,18 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "eb94bc770b1def07faa4ae95e27ea47ec873f43b",
-  "appVersion": "2.9.15",
-  "stationeryVersion": "0.8.1",
+  "sourceCommit": "7ded2597f71f3aff27cf9ca30659b5a62b5c1288",
+  "appVersion": "2.9.16",
+  "stationeryVersion": "0.8.2",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-06T07:04:20.169Z",
+  "publishedAt": "2026-10-06T07:35:03.221Z",
   "checks": [
-    "TypeScript; npm test; build; build:test; no configured lint script",
-    "Three dirty choices, native history, failed-save draft retention on Journal/Bullet/Monthly Review",
-    "One-shot new content edit; save/reload view; Month Tracker section/page/tracker/date dedupe",
-    "Archive original details/tab/scroll; Journal date; Statistics range; session-only navigation state",
-    "Reading/share/ZIP restore and legacy fields/migrations; autoSave UI removed with compatibility retained",
-    "Chromium/WebKit 320/375/390/430; Console/Network; actual installed iOS PWA unavailable",
-    "Goods/Wardrobe business source unchanged; dependency graph unchanged"
+    "TypeScript; npm test; build; build:test; lint not configured",
+    "Global A/B/C state invariant before and after; no Bullet meta/html/body/root leakage",
+    "Local 2D turn; paint containment; finish/unmount cancellation; no static perspective",
+    "Chromium/WebKit light/dark; 320/375/390/430; rapid indexes; reduced motion; CSS fallback",
+    "New/archived shared Shell; navigation and Todo/Tracker/Placement regressions",
+    "Native iOS status bar pending user confirmation on iPhone 16e iOS 26.6.2",
+    "Goods/Wardrobe unchanged; no schema/dependency changes"
   ]
 }

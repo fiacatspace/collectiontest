@@ -1,18 +1,18 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "f8d022e268784a4af404344cb7d4ac3ad18e6498",
-  "appVersion": "2.9.12",
-  "stationeryVersion": "0.7.0",
+  "sourceCommit": "51652fc39a5506f0ae204d2cff6449540fab8e1e",
+  "appVersion": "2.9.13",
+  "stationeryVersion": "0.7.1",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-06T02:47:48.8180215Z",
+  "publishedAt": "2026-10-06T04:26:27.4110623Z",
   "checks": [
-    "TypeScript; build; build:test; npm test",
-    "Shared BulletNotebookShell / right-side indexes for new and archived sections",
-    "Year-month / month-day and week navigation; same section; missing page confirmation",
-    "320ms forward/backward turns; CSS fallback; reduced motion; rapid navigation",
-    "Original Todo / Tracker / Placement / body / templates; long-page mobile scrolling",
-    "Chromium/WebKit 320/375/390/430/768/1024, dark / large font, Console/Network",
-    "Archive actions and reorder; Today and Placement; ZIP regressions"
+    "TypeScript; build; build:test; npm test; no configured lint script",
+    "Stationery spacing; fixed two-column home; inline Today quick-add and management icons",
+    "Todo strike-through/stable grouping/refresh/original data synchronization",
+    "Monthly Review aligned Edit/Share/Refresh; compact summary; body preservation; ZIP backup/restore",
+    "Shared Journal/Bullet/Review TextFormattingToolbar; collapsed help; active bold/underline/strike/subtitle",
+    "Chromium/WebKit 320/375/390/430 and large fonts; Console/Network",
+    "Bullet navigation/Archive actions and drag ordering regressions; Goods/Wardrobe source unchanged"
   ]
 }

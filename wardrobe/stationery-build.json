@@ -1,18 +1,19 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "c7aca6b022dfda2c6d2ee76ebe35f8ef79017822",
-  "appVersion": "2.9.22",
-  "stationeryVersion": "0.12.0",
+  "sourceCommit": "b92a8addd2e46f1845456b2fc980bae2ddb91fc0",
+  "appVersion": "2.9.23",
+  "stationeryVersion": "0.13.0",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-07T03:56:01.435Z",
+  "publishedAt": "2026-10-07T04:38:00.150Z",
   "checks": [
     "Typecheck, build, build:test, npm test PASS; lint not configured",
-    "Chromium/WebKit Goal deadline focus, edit/complete/source Journal, no-deadline fallback, 320/375/430/768/1024 layouts",
-    "Journal borderless content rows; separate Goal action; existing Review read/edit/share compatibility",
-    "Current-entry/day Share sorting, per-field selection, single footer; 6000px bounded images at entry/paragraph boundaries; explicit rejection of oversized single paragraphs",
-    "Goal/Review/photo ZIP restore in Chromium; old backups, migration and URLs preserved; Windows WebKit Blob/IDB test limitation",
-    "No Goal/HomeGoal/day-summary duplicate business data; schema and backup format unchanged",
-    "Goods/Wardrobe business unchanged; no dependencies upgraded"
+    "Home Goal goes directly to complete sorted goal list; compact row actions and editor Sheet; no detail layer",
+    "Canonical Goals remain embedded in source Journal; sourceJournalEntryId derived for legacy and stamped on writes; one Goal Section, stable legacy duplicate IDs",
+    "Journal uniform three-item add row and centered plain-text save row; cancel dirty drafts and deleting Journal/Goal require Sheet confirmation",
+    "Goal source Journal sync, block focus and Goal list scroll-return; completion undo and deletion cleanup; source-required/new-source Goal creation",
+    "Chromium ZIP restore and both-merge source-ID remapping; old backups/migrations/URLs and Day Share preserved",
+    "Chromium/WebKit touch 375/430/768 and original Journal regression 320/375/390/430/768/1024; Console/Network",
+    "Goods/Wardrobe business unchanged; no dependency, DB schema or backup format changes"
   ]
 }

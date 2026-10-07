@@ -1,11 +1,11 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "b92a8addd2e46f1845456b2fc980bae2ddb91fc0",
+  "sourceCommit": "e1bd2bf64794b7a569abd4f50848051562a623a1",
   "appVersion": "2.9.23",
   "stationeryVersion": "0.13.0",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-07T04:38:00.150Z",
+  "publishedAt": "2026-10-07T04:41:04.907Z",
   "checks": [
     "Typecheck, build, build:test, npm test PASS; lint not configured",
     "Home Goal goes directly to complete sorted goal list; compact row actions and editor Sheet; no detail layer",

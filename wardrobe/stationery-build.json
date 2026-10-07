@@ -1,18 +1,17 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "95128d13dac0a38d02b040a4b73165a592024f00",
-  "appVersion": "2.9.20",
-  "stationeryVersion": "0.10.0",
+  "sourceCommit": "11af227b5a62ca18bb2909790fbf4bd693900d60",
+  "appVersion": "2.9.21",
+  "stationeryVersion": "0.11.0",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-06T11:19:51.476Z",
+  "publishedAt": "2026-10-07T02:50:30.712Z",
   "checks": [
     "tsc -b; npm test; build; build:test; lint not configured",
-    "Chromium/WebKit: all five type directories, top calendar and section-scoped real-content/Todo/Tracker dots/current-day styling",
-    "Existing and missing positions; no implicit pages; manual, calendar, Year/Month/Week, blank/system/user template creation; refresh and last reading",
-    "Page-only turn direction/reduced motion, archived shared Shell, dirty guard/legacy URLs/navigation context",
-    "Current/backup/both/v7 ZIP compatibility; original Todo/Tracker/Placement and reading/share data regressions",
-    "320/375/430/768/1024 no overflow; Console/Network checks",
-    "Goods/Wardrobe business, database schemas, migration and Backup compatibility unchanged; no dependencies added"
+    "Atomic/idempotent Bullet to Journal migration; preserved raw sources and archive metadata; no resurrection after deletion",
+    "Journal text/quick records/goals/image/entity reference/journal reference/review; View/Edit/save/cancel/dirty guard and Share image generation",
+    "Old v5/v7/current ZIP restore; current/backup/both merge and migration-link remapping; original Todo/Tracker records preserved",
+    "Chromium and WebKit touch: 320/375/390/430/768/1024 reading/editing; old URLs; Monthly Review without Bullet; Console/Network",
+    "Goods/Wardrobe business and schemas unchanged; no dependencies upgraded; original migrations and backup readers retained"
   ]
 }

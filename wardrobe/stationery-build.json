@@ -1,17 +1,18 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "06e9f8e08e40c170f6d5fef421fa4b0fd09e49c2",
-  "appVersion": "2.9.21",
-  "stationeryVersion": "0.11.0",
+  "sourceCommit": "c7aca6b022dfda2c6d2ee76ebe35f8ef79017822",
+  "appVersion": "2.9.22",
+  "stationeryVersion": "0.12.0",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-07T03:08:05.904Z",
+  "publishedAt": "2026-10-07T03:56:01.435Z",
   "checks": [
-    "tsc -b; npm test; build; build:test; lint not configured",
-    "Atomic/idempotent Bullet to Journal migration; preserved raw sources and archive metadata; no resurrection after deletion",
-    "Journal text/quick records/goals/image/entity reference/journal reference/review; View/Edit/save/cancel/dirty guard and Share image generation",
-    "Old v5/v7/current ZIP restore; current/backup/both merge and migration-link remapping; original Todo/Tracker records preserved",
-    "Chromium and WebKit touch: 320/375/390/430/768/1024 reading/editing; old URLs; Monthly Review without Bullet; Console/Network",
-    "Goods/Wardrobe business and schemas unchanged; no dependencies upgraded; original migrations and backup readers retained"
+    "Typecheck, build, build:test, npm test PASS; lint not configured",
+    "Chromium/WebKit Goal deadline focus, edit/complete/source Journal, no-deadline fallback, 320/375/430/768/1024 layouts",
+    "Journal borderless content rows; separate Goal action; existing Review read/edit/share compatibility",
+    "Current-entry/day Share sorting, per-field selection, single footer; 6000px bounded images at entry/paragraph boundaries; explicit rejection of oversized single paragraphs",
+    "Goal/Review/photo ZIP restore in Chromium; old backups, migration and URLs preserved; Windows WebKit Blob/IDB test limitation",
+    "No Goal/HomeGoal/day-summary duplicate business data; schema and backup format unchanged",
+    "Goods/Wardrobe business unchanged; no dependencies upgraded"
   ]
 }

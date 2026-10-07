@@ -1,1 +1,1 @@
-{"version":"2.9.21","notes":["电子笔记本只保留普通 Journal，移除 Bullet 产品入口、导航与统计","旧 Bullet 有内容的页面自动迁入 Journal；原始数据、旧 URL 与备份兼容保留","Journal 支持文字与快速记录、目标、图片、实体引用、日记引用和回顾；Todo / Tracker 保持全局原实体"],"downloadBytes":1378697,"cacheBytes":1378129}
+{"version":"2.9.22","notes":["首页显示最近截止 Goal 和倒计时，目标总览直接编辑来源日记中的原目标","Journal 添加内容统一为文字、站内引用、日记引用、图片；Goal 独立添加，旧回顾内容保留","Journal 支持分享当前记录或当天全部已保存记录，按时间排序；长内容按记录或段落生成多张图片"],"downloadBytes":1391156,"cacheBytes":1390588}

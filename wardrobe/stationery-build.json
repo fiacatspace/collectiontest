@@ -1,11 +1,11 @@
 {
   "sourceRepository": "https://github.com/fiacatspace/collection",
   "sourceBranch": "stationery",
-  "sourceCommit": "11af227b5a62ca18bb2909790fbf4bd693900d60",
+  "sourceCommit": "3b6ed496ff67734134fc073baed7f42edb411c6b",
   "appVersion": "2.9.21",
   "stationeryVersion": "0.11.0",
   "buildCommand": "npm run build:test",
-  "publishedAt": "2026-10-07T02:50:30.712Z",
+  "publishedAt": "2026-10-07T02:56:34.633Z",
   "checks": [
     "tsc -b; npm test; build; build:test; lint not configured",
     "Atomic/idempotent Bullet to Journal migration; preserved raw sources and archive metadata; no resurrection after deletion",

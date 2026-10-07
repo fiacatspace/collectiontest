@@ -1,1 +1,1 @@
-{"version":"2.9.21","notes":["Bullet 右侧索引打开对应类型目录，顶部日期打开本本月历","缺页先进入日期占位，主动新建才选择空白或模板","当前手帐记录小点、当天文字强调、真实页面之间轻量翻页"],"downloadBytes":1378674,"cacheBytes":1378106}
+{"version":"2.9.21","notes":["电子笔记本只保留普通 Journal，移除 Bullet 产品入口、导航与统计","旧 Bullet 有内容的页面自动迁入 Journal；原始数据、旧 URL 与备份兼容保留","Journal 支持文字与快速记录、目标、图片、实体引用、日记引用和回顾；Todo / Tracker 保持全局原实体"],"downloadBytes":1378674,"cacheBytes":1378106}

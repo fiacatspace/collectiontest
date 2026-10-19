@@ -1,6 +1,6 @@
 {
   "sourceRepository": "fiacatspace/collection",
-  "sourceCommit": "526c9bf3541f6665d8a255d5f65417d80c14958e",
-  "sourceBranch": "main",
-  "builtAt": "2026-10-19T05:17:52.559Z"
+  "sourceCommit": "fe1adef100ed68ee75a6b127eb31be82808582f8",
+  "sourceBranch": "feature/hierarchical-categories-tags",
+  "builtAt": "2026-10-19T06:36:45.012Z"
 }

@@ -1,6 +1,7 @@
 {
   "sourceRepository": "fiacatspace/collection",
-  "sourceCommit": "610bd0aea244e9b128e33940eff39b820bde0b2b",
-  "sourceBranch": "feature/goods-custom-groups",
-  "builtAt": "2026-10-20T04:11:25.413Z"
+  "sourceCommit": "825045c9a5a402d39ba69e7944294d2d959be668",
+  "sourceBranch": "feature/goods-main-graft",
+  "baseCommit": "aee2d1e01c7513fd1e3ab006579c8eec6b65e025",
+  "builtAt": "2026-10-20T04:38:39.165Z"
 }

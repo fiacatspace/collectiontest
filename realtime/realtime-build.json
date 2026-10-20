@@ -1,7 +1,7 @@
 {
   "sourceRepository": "fiacatspace/collection",
-  "sourceCommit": "825045c9a5a402d39ba69e7944294d2d959be668",
+  "sourceCommit": "fd0c9395818c85edf18bd2b4da279dfdcee143c2",
   "sourceBranch": "feature/goods-main-graft",
   "baseCommit": "aee2d1e01c7513fd1e3ab006579c8eec6b65e025",
-  "builtAt": "2026-10-20T04:38:39.165Z"
+  "builtAt": "2026-10-20T05:11:40.737Z"
 }
